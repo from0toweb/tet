@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>test</title>
+</head>
+<body>
+
+    <main>
+        <section class="start">
+            <div class="anim"></div>
+            <div class="bg-image">
+                <img src="img/live_background.png" alt="bg">
+            </div>
+            <div class="container">
+                <img src="img/logo.svg" alt="logo" class="start__logo">
+
+                <h1 class="start__title">Конференции, которые нужны</h1>
+
+                <div class="start__text">
+                    <p>Мы, JUG Ru Group, делаем крупнейшие конференции для программистов и сочувствующих.</p>
+                    <p>С нас — крутая программа, топовые спикеры, технические доклады без воды.</p>
+                    <p>С вас — готовность смотреть и общаться.</p>
+                </div>
+
+                <div class="start__buttons">
+                    <button class="button start__button start__button--primary">Купить билет
+                        <div class="button__icon"></div>
+                    </button>
+                    <button class="button start__button start__button--dark">Купить билет в ж...
+                        <div class="button__icon"></div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="popup">
+            <div class="popup__wrap">
+                <div class="popup__block popup__block--light">
+                    <div class="popup__header-block">
+                        <div class="popup__image"></div>
+                        <h2 class="popup__title">Я хочу знать, <br> когда будет офлайн</h2>
+                    </div>
+
+                    <form class="popup__form">
+                        <input type="email" class="popup__input" placeholder="Укажите email">
+                        <button class="popup__button">Подписаться</button>
+                    </form>
+
+                    <p class="popup__policy">Нажимая на кнопку вы соглашаетесь на обработку <a href="#">персональных данных</a></p>
+
+                    <p class="thanks__light">Спасибо, что подписались на нашу рассылку!</p>
+                </div>
+
+                <div class="popup__block popup__block--dark">
+                    <div class="popup__header-block">
+                        <div class="popup__image"></div>
+                        <h2 class="popup__title">Идите в ж...!</h2>
+                    </div>
+
+                    <div class="popup__buttons">
+                        <div class="popup__button--dark">Вы свои цены видели?</div>
+                        <div class="popup__button--dark">Доклады ни о чем</div>
+                        <div class="popup__button--dark">У вас там всё хорошо?</div>
+                        <div class="popup__button--dark">Денег нет, но вы держитесь</div>
+                    </div>
+
+                    <div class="thanks__dark">
+                        <div class="thanks__dark--image"></div>
+                        <p class="thanks__dark--text">Спасибо, что поделились!</p>
+                    </div>
+                </div>
+
+                <a href="#" class="popup__back">Я кликнул просто посмотреть</a>
+            </div>
+
+
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
