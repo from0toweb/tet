@@ -8,10 +8,6 @@ body {
   padding: 0;
 }
 
-button {
-  cursor: pointer;
-}
-
 .container {
   max-width: 1240px;
   width: 100%;
@@ -358,13 +354,17 @@ button {
 }
 
 .popup__button--dark {
+  display: block;
   text-align: center;
+  width: 100%;
+  background-color: transparent;
   border: 1px solid #FFFFFF;
   border-radius: 45px;
   padding: 16px;
   margin-bottom: 20px;
   font-size: 14px;
   line-height: 130%;
+  color: #FFFFFF;
 }
 
 .popup__button--dark:nth-child(4) {
