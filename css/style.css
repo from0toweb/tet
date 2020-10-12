@@ -8,6 +8,10 @@ body {
   padding: 0;
 }
 
+button {
+  cursor: pointer;
+}
+
 .container {
   max-width: 1240px;
   width: 100%;
